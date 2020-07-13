@@ -13,7 +13,8 @@
   
   <!-- Robot pose -->
   <arg name="x" default="0"/>  
-  <arg name="y" default="-8.7"/>  
+  <!-- <arg name="y" default="-8.7"/>   -->
+  <arg name="y" default="0"/>  
   <arg name="z" default="0"/>  
   <arg name="roll" default="0"/>  
   <arg name="pitch" default="0"/>  
@@ -31,5 +32,6 @@
               -x $(arg x) -y $(arg y) -z $(arg z)
               -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
   <!-- Launch rviz -->
-  <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
+  <!-- <node pkg="rviz" type="rviz" name="rviz" 
+        args="-d /home/robond/workspace/catkin_ws/src/localization_where_am_i/my_robot/AMCL.rviz"/> -->
 </launch>
