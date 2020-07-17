@@ -1,4 +1,4 @@
-# robond-go_chase_it
+# Localization: Where am I
 code for simulation the localization in Gazeb with ROS amcl package - udacity robotics nanodegree 
 
 
